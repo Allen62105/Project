@@ -1,0 +1,65 @@
+{
+  "name": "full-stack-car-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "firebase": "^12.0.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.19.3",
+    "react-paginate": "^8.1.0",
+    "react-rating": "^2.0.5",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^0.0.0",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^8.1.0",
+    "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "* Live Web App Link : https://full-stack-car-app.web.app/ * Server Side Code Link : https://github.com/shadmansaalim/Full-Stack-Car-Server.git * Full Stack Niche Web Application built using ReactJs, React Bootstrap, NodeJs, ExpressJs & MongoDB. * This is a simple niche application where cars are being displayed and user can book any of the car from the collection and all the data of booking will be stored in database and user can also see his orders in My Orders Page from the Dashboard where user can even cancel his order which will also be updated in Database. Moreover, User can also add a review for the website which will be displayed in Landing Page Slider Reviews Section. For User Authentication system I used Firebase by which user can Sign Up and also login using Email/Password system as well as Google/Facebook/Apple Provider. * Behind the scene of the application there is an Admin Panel too in the Dashboard which can only be viewed by admins. The UI of Dashboards of a regular User and an Admin is completely different. Admins can create more admins in Make Admin page from Dashboard as well as they can get all the orders list done by the users and can even update the status of order as well as they can remove existing orders. Furthermore, admins can even manage cars that are being displayed in the website and can even add more cars or delete existing ones. Drop me a text if you want admin credentials * Implemented JWT token to secure APIs as well as built Private Routes to add double layer of security of website access to different routes * Made the application fully responsive for all devices * Implemented some basic User Design Principles to improve UI/UX of the application * Used packages such as React Hook Form, React Rating, React Slick, React Toastify, Sweetalert, Fontawesome etc to improve the UX of the application * Application developed by Saalim Shadman, A Computer Science Student at RMIT, Australia",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
